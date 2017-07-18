@@ -1,0 +1,36 @@
+{
+  "name": "sigfox_detect",
+  "version": "1.0.0",
+  "description": "A node.js app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntoinedeChassey/sigfox_detect.git"
+  },
+  "author": "Antoine de Chassey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntoinedeChassey/sigfox_detect/issues"
+  },
+  "homepage": "https://github.com/AntoinedeChassey/sigfox_detect",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bootstrap": "3.3.7",
+    "chart.js": "^2.6.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^2.0.0",
+    "ejs": "latest",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
+    "express-session": "^1.14.0",
+    "express-validator": "^2.20.8",
+    "jquery": "latest",
+    "mongoose": "^4.10.8",
+    "node-cron": "^1.2.0",
+    "socket.io": "latest"
+  }
+}

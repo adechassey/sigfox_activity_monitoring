@@ -1,0 +1,41 @@
+<div class="jumbotron text-center">
+    <h1>PC Activity Monitoring</h1>
+    <a href="/all" class="btn alert-info btn-lg btn-block" type="submit">Show all</a>
+</div>
+
+<h3 class="col-md-6 col-md-offset-3 text-center bg-success" id="dailyWorkingHours"></h3>
+
+<div class="card">
+    <div class="card-block">
+        <canvas id="tracking"></canvas>
+    </div>
+</div>
+
+<script>
+    var messages = <%- JSON.stringify(messages) %>;
+    <% if (typeof activity !== 'undefined') { %>
+    var activity = <%- JSON.stringify(activity) %>;
+    <% } %>
+</script>
+
+<!--
+<table class="table table-bordered table-hover table-striped">
+    <thead>
+    <tr>
+        <th>Device</th>
+        <th>Time</th>
+        <th>Data</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <% for (var message of messages) { %>
+    <tr>
+        <td><%= message.device %></td>
+        <td><%= new Date(message.time).toLocaleString() %></td>
+        <td><%= message.data %></td>
+    </tr>
+    <% } %>
+
+    </tbody>
+</table>-->
