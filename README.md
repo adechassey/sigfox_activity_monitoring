@@ -107,6 +107,9 @@ This web application is built with __Node.js__ and uses:
 ``` Bash
 git clone https://github.com/AntoinedeChassey/sigfox_activity_monitoring
 cd sigfox_activity_monitoring/webapp
+mv .env.example .env
+# Update the DB_URI variable in .env so it matches your own MongoDB configuration
+nano .env
 sudo npm install
 sudo node server.js
 ```
