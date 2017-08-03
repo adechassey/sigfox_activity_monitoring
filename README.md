@@ -2,7 +2,7 @@
 
 This tutorial will cover how to __distantly monitor PC activity__, from __anywhere__ without requiring it to be connected to the Internet. This kind of system could be used to __remotely _detect_, _track_ and _report___ special events triggered on a computer.
 
-## Harware
+## Hardware
 - [M2COMM Uplynx RCZ1 Evaluation Board](https://www.m2comm.co/portfolio-view/uplynx-rcz1/)
 
 This board has a USB adapter which allows __serial communication__. We will use a simple Python script to communicate with __AT commands__.
